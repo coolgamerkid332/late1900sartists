@@ -1,6 +1,6 @@
 // This file overwrites the stock UV config.js
 
-self.__uv$config = {
+self.uv$config = {
   prefix: "/uv/service/",
   bare: "https://login.hotelbelmar.com.mx/bare/",
   encodeUrl: Ultraviolet.codec.xor.encode,
